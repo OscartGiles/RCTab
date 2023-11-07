@@ -35,11 +35,11 @@ bibliography: paper.bib
 ---
 ## Summary
 
-Cloud computing provides research institutions the benefits of flexible and scalable computing and storage resources. However, the pay-for-what-you-use pricing model poses a challenge to organisations that need some certainty in outgoings.
+Cloud computing provides research institutions with flexible and scalable computing resources without requiring large up-front capital expenditure. With just a credit card and internet connection, researchers can rapidly access a wealth of storage and compute resources. This pay-for-what-you-use model, however, can make tracking budgets and enforcing spending constraints cumbersome for large organisations, making it difficult to predict financial expenditures in the cloud.
 
-In response, we have developed [RCTab](https://rctab.readthedocs.io/) (**R**esearch **C**omputing **Tab**les), an open-source system for automating the management of [subscriptions](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources#management-levels-and-hierarchy) on Azure, Microsoft’s cloud computing platform. It saves time spent monitoring costs and allows researchers to have greater control over their cloud resources without the risk of excessive spending.
+In response, we have developed [RCTab](https://rctab.readthedocs.io/) (**R**esearch **C**omputing **Tab**les), an open-source system for automating the management of  on Azure, Microsoft’s cloud computing platform. It saves time spent monitoring costs and allows researchers to have greater control over their cloud resources without the risk of excessive spending.
 
-It is written in Python and has Infrastructure as Code (IaC) deployment that can be used to quickly and repeatably deploy it to Azure.
+ an open-source system for automating the management of [subscriptions](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources#management-levels-and-hierarchy) on Azure, Microsoft’s cloud computing platform. Writen in Python and deployed to Azure using Infrastructure as Code (IaC), RCTab provides a fully managed and configurable system that allows organisations to set budgets and automatically disable spending on subscriptions that exceed budgets. This provides a convenient and minimal system that saves time spent monitoring costs and affords researchers greater control over their cloud resources, without the risk of excessive spending.
 
 ## Statement of Need
 
